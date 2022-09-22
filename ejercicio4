@@ -1,4 +1,4 @@
-a = 100
-while a >= 1:
+a = 101
+while a >= 2:
     a -=1
     print ('Numero:', a)
