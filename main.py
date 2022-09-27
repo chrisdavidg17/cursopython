@@ -1,15 +1,11 @@
-import sys
-import operacioness
-import pprint
 
-def main():
+from operacioness import *
 
-    pprint (dir(operacioness))
-    #sum = operacioness.suma (1200, 1600)    
-    #print(sum)
+a, b, c, d = (20, 50, 90, 35)
 
-if __name__ == '__main__':
-    main()
-
+print( "{} + {} = {}".format(a, b, suma(a, b) ) )
+print( "{} - {} = {}".format(b, d, resta(b, d) ) )
+print( "{} * {} = {}".format(b, b, mult(b, b) ) ) 
+print( "{} / {} = {}".format(a, c, divi(a, c) ) )
    
     
