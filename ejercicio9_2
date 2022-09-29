@@ -1,0 +1,19 @@
+from functools import reduce
+
+
+lista = [5, 2, 10, 20, 45, 37, 90, 87]
+
+def impares (x):
+    if x % 2 == 1:
+        return True
+    
+    return False
+
+lista2 = filter(impares, lista)
+print (list(lista2))
+
+def suma (a, b):
+    return a + b
+
+lista3 = reduce (suma, lista2)
+print (lista3)
